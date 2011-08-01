@@ -67,6 +67,6 @@ See the included example.html file for further details.
 Please use Github to report bugs, feature requests and submit your code:
 http://github.com/mvilrokx/scrollableLists
 
-:author: Mark Vilrokx
-:date: 2011/31/07
+- author: Mark Vilrokx
+- date: 2011/31/07
 
