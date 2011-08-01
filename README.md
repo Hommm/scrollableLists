@@ -1,32 +1,29 @@
-===============
-scrollableLists
-===============
+# scrollableLists
 
 This jquery plugin makes it easy to turn your long lists into shorter ones that are scrollable.  It works on both ol and ul
 
 Features:
 
-- 1 Easily turn ordered or unordered lists into scrollable lists
-- 2 Configurable
-- 3 No ugly scrollbars
+- Easily turn ordered or unordered lists into scrollable lists
+- Configurable
+- No ugly scrollbars
 
 Contributions and comments are welcome using Github at:
 http://github.com/mvilrokx/scrollableLists
 
-Please not that scrollableLists requires:
+Please note that scrollableLists requires:
 
 - jquery >= 1.5.0
 
 (that is the version I tested with, it probably works though with much earlier versions.  Let me know which ones and I will update this README)
 
-Installation
-============
+## Installation
 
-#. Download this git
-#. Add scrollableLists.js to your public javascript directory
+1. Download this git
+2. Add scrollableLists.js to your public javascript directory
 
-Configuration
-=============
+## Configuration
+
 - li_height             : (integer) - height of the individual list items in the list in px (defaults to 20px)
 - per_page              : (integer) - number of items per page (defaults to 10)
 - a_color               : (string) - font color of up/down link (defaults to '#000')
@@ -38,35 +35,33 @@ Configuration
 - down_symbol'          : (string) - string used to represent scroll Down (defaults to '&darr;')
 - symbol_size'          : (string) - font-size of up/down link (defaults to '14px')
 
-Usage
-=====
+## Usage
 
-#. Call the scrollableLists jquery function on any ul or ol you want to transform into a scrollable list
+1. Call the scrollableLists jquery function on any ul or ol you want to transform into a scrollable list
 
 E.g. given the following list
 
-  <ul class="scrollable-list">
-    <li><a href="#">Element</a></li>
-    <li>Element</li>
-    <li>Element</li>
-    <li>Element</li>
-    <li>Element</li>
-    <li>Element</li>
-    <li>Element</li>
-    <li>Element</li>
-  </ul>
+    <ul class="scrollable-list">
+      <li><a href="#">Element</a></li>
+      <li>Element</li>
+      <li>Element</li>
+      <li>Element</li>
+      <li>Element</li>
+      <li>Element</li>
+      <li>Element</li>
+      <li>Element</li>
+    </ul>
 
-you can add the following to the <head> section of your html file:
+you can add the following to the head-section of your html file:
 
-  <script>
-    $(function() {
-      $('.scrollable-list').scrollableLists({'per_page'  : 5, symbol_size: '20px'});
-    });
-  </script>
+    <script>
+      $(function() {
+        $('.scrollable-list').scrollableLists({'per_page'  : 5, symbol_size: '20px'});
+      });
+    </script>
 
 
-Bugs & Contribution
-===================
+## Bugs & Contribution
 
 Please use Github to report bugs, feature requests and submit your code:
 http://github.com/mvilrokx/scrollableLists
