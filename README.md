@@ -60,6 +60,7 @@ you can add the following to the head-section of your html file:
       });
     </script>
 
+See the included example.html file for further details.
 
 ## Bugs & Contribution
 
