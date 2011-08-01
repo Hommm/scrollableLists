@@ -1,5 +1,5 @@
 (function( $ ){
-  $.fn.myPlugin = function(options) {
+  $.fn.scrollableLists = function(options) {
 
     var settings = {
       'li_height'            : 20,
