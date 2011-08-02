@@ -27,13 +27,13 @@ Please note that scrollableLists requires:
 - li_height             : (integer) - height of the individual list items in the list in px (defaults to 20px)
 - per_page              : (integer) - number of items per page (defaults to 10)
 - a_color               : (string) - font color of up/down link (defaults to '#000')
-- a_background'         : (string) - background color of up/down link (defaults to '#fff')
-- a_hover_color'        : (string) - font color of up/down link when hovering over it (defaults to '#fff')
-- a_hover_background'   : (string) - background color of up/down link when hovering over it (defaults to '#555')
-- plugin_class'         : (string) - class that gets added to target only scrollableList html elements, there really is no need to change this (defaults to '_scrollable-list_')
-- up_symbol'            : (string) - string used to represent scroll Up (defaults to '&uarr;')
-- down_symbol'          : (string) - string used to represent scroll Down (defaults to '&darr;')
-- symbol_size'          : (string) - font-size of up/down link (defaults to '14px')
+- a_background          : (string) - background color of up/down link (defaults to '#fff')
+- a_hover_color         : (string) - font color of up/down link when hovering over it (defaults to '#fff')
+- a_hover_background    : (string) - background color of up/down link when hovering over it (defaults to '#555')
+- plugin_class          : (string) - class that gets added to target only scrollableList html elements, there really is no need to change this (defaults to '_scrollable-list_')
+- up_symbol             : (string) - string used to represent scroll Up (defaults to '&uarr;')
+- down_symbol           : (string) - string used to represent scroll Down (defaults to '&darr;')
+- symbol_size           : (string) - font-size of up/down link (defaults to '14px')
 
 ## Usage
 
