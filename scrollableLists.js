@@ -103,5 +103,3 @@
   };
 })( jQuery );
 
-$('.scrollable-list').myPlugin({'per_page'  : 5, symbol_size: '20px'});
-
