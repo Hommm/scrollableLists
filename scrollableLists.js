@@ -62,7 +62,8 @@
       "</style>").appendTo("head");
 
 
-    $(".next").live('click', function () {
+    $(".next").live('click', function (event) {
+      event.preventDefault();
       activatedWindow = $(this).parent(".window-wrapper");
       list = activatedWindow.find("ol, ul");
       nextButton = $(this);
@@ -77,7 +78,8 @@
       });
     });
 
-    $(".previous").live('click', function () {
+    $(".previous").live('click', function (event) {
+      event.preventDefault();
       activatedWindow = $(this).parent(".window-wrapper");
       list = activatedWindow.find("ol, ul");
       prevButton = $(this);
