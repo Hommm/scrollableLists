@@ -11,7 +11,8 @@
       'plugin_class'         : '_scrollable-list_',
       'up_symbol'            : '&uarr;',
       'down_symbol'          : '&darr;',
-      'symbol_size'          : '14px'
+      'symbol_size'          : '14px',
+      'easing'               : 'swing'
     };
 
     if ( options ) {
@@ -71,7 +72,7 @@
 
       nextButton.css("visibility","hidden"); //prevent double clicking
       prevButton.css("visibility","visible");  //if you clicked next, you can click previous
-      list.animate({ top: "-=" + viewportHeight +"px" }, 300, function(){
+      list.animate({ top: "-=" + viewportHeight +"px" }, 300, settings.easing, function(){
         if ((list.find("li:last-child").position().top + settings.li_height) - viewportHeight + list.position().top > 0) {
           nextButton.css("visibility","visible");
         }
@@ -87,7 +88,7 @@
 
       prevButton.css("visibility","hidden"); //prevent double clicking
       nextButton.css("visibility","visible"); //if you clicked previous, you can click next
-      list.animate({ top: "+=" + viewportHeight +"px" }, 300, function(){
+      list.animate({ top: "+=" + viewportHeight +"px" }, 300, settings.easing, function(){
 
         if (list.position().top < 0) {
           prevButton.css("visibility","visible");
