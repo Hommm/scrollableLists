@@ -34,6 +34,7 @@ Please note that scrollableLists requires:
 - up_symbol             : (string) - string used to represent scroll Up (defaults to '&uarr;')
 - down_symbol           : (string) - string used to represent scroll Down (defaults to '&darr;')
 - symbol_size           : (string) - font-size of up/down link (defaults to '14px')
+- easing                : (string) - jquery easing string, see jquery animation function for details (defaults to 'swing')
 
 ## Usage
 
